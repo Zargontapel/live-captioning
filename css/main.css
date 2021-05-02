@@ -18,6 +18,12 @@
     line-height: 1.4;
 }
 
+/* do some weird scrolling trick so text doesn't overflow off the bottom of screen */
+body {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
